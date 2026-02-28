@@ -23,15 +23,16 @@
 
 <body>
     <script>
-const password = "Volta26";
-const user = prompt("Inserire password:");
-if (user !== password) {
-    document.body.innerHTML = "<h2>Accesso negato</h2>";
-    document.body.style.cssText = "background:black; color:white; text-align:center; padding:50px";
-    window.stop(); // blocca il caricamento di tutto
-    //throw new Error("Accesso negato"); // blocca l'esecuzione degli script successivi
-}
-</script>
+    const password = "Volta26";
+    const user = prompt("Inserire password:");
+    if (user !== password) {
+        document.documentElement.innerHTML = "<body style='background:black; color:white; text-align:center; padding:100px'><h2>Accesso negato</h2></body>";
+        window.__accessGranted = false;
+        window.stop();
+    } else {
+        window.__accessGranted = true;
+    }
+    </script>
     <div class="w-100 vh-100">
         <div class="floating-button">
             <a href="../index.html" class="btn btn-success">Go Home</a>

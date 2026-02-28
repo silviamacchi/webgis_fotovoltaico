@@ -1,3 +1,4 @@
+if (!window.__accessGranted) throw new Error("Accesso negato");
 //import 'ol/ol.css';
 //import 'ol-layerswitcher/dist/ol-layerswitcher.css';
 // import { Map, View, Overlay } from 'ol';
