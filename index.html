@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GIS Project - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom-styles.css" />
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header" style="padding-top: 2rem;">
+			<nav>
+				<div class="nav-split">
+					<div class="nav-left">
+					<a href="index.html" class="button scrolly">Home</a>
+					</div>
+					<div class="nav-right">
+					<a href="pages/air_quality.html" class="button scrolly">Air Quality</a>
+					<a href="pages/land_cover.html" class="button scrolly">Land Cover</a>
+					<a href="pages/pop_exposure.html" class="button scrolly">Population Exposure</a>
+					<a href="pages/webgis.html" class="button scrolly">Webgis</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Introduction -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<header class="major special">
+								<h1>GIS project - air quality analysis over France</h>
+							</header>
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<p>Test webgis fotovoltaico
+							</p>
+						</div>
+						<div class="col-1 col-12-medium imp-medium">
+						</br>
+						</div>
+						<div class="col-5 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/Homepage/blurred.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Webgis -->
+			<div class="container">
+			<section id="footer" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Webgis</h2>
+					</header>
+					<p style="color:#ffffff">The most significative maps produced during the project have been uploaded into the Online Geoserver of Politecnico di Milano and can be visualized through the webgis page. Here it's possible to select WMS layers and visualize them on the map, along with their legend.
+					<ul class="actions special">
+						<li><a href="pages/webgis.html" class="button wide primary">More</a></li>
+					</ul>
+				</div>
+			</section>
+			</div>
+
+		<!-- Resources -->
+			<section id="one" class="main style1"></section>
+			<div class="container">
+				<section>
+					<header class="major special">
+						<h2>Resources</h2>
+					</header>
+					<p>Here is the list of all the websites we used in the project, they all provide free and open-access data.</p>
+					<hr />
+					<div class="row gtr-150">
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/Homepage/CAMS.png" alt="" /></span>
+						</div>
+						<div class="col-9 col-12-medium">
+							<h3>Copernicus Atmosphere Monitoring Service (CAMS)</h3>
+								<p>From <a href="https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=overview">European Air Quality Reanalysis dataset</a> we downloaded 1-hourly concentration maps for our three pollutants, from January 2013 to December 2022.
+								</br></p>
+						</div>
+					</div>
+					<hr />
+					
+					<div class="row gtr-150">
+						<div class="col-9 col-12-medium">
+							<h3>ESA CCI Land Cover</h3>
+							<p>From <a href="https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=overview">Land cover classification gridded maps from 1992 to present derived from satellite observations dataset</a> we downloaded land cover data, to simplify we choose to work just with data from 2022</p>
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/Homepage/LandCover.png" alt="" /></span>
+						</div>
+					</div>
+					<hr />
+					
+					<div class="row gtr-150">
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/Homepage/WorldPop.png" alt="" /></span>
+						</div>
+						<div class="col-9 col-12-medium">
+							<h3>WorldPop - Population Counts</h3>
+							<p>From <a href="https://hub.worldpop.org/geodata/listing?id=29">World Pop Population Counts</a> we downloaded population data for France, to simplify we choose to work just with data from 2020</p>
+						</div>
+					</div>
+					<hr />
+					
+					<div class="row gtr-150">
+						<div class="col-9 col-12-medium">
+							<h3>Global Administrative Unit Layers (GAUL)</h3>
+							<p>From <a href="https://data.apps.fao.org/catalog/dataset/b0634117-37c0-4125-ad87-89cb9aec4eea">FAO GAUL level 2</a> we downloaded administrative level 2 boundaries (Provinces) for France.</p>
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/Homepage/FAO.png" alt="" /></span>
+						</div>
+					</div>
+					<hr />
+				</section>
+			</div>
+			</section>
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons" >
+					<li><a href="https://github.com/silviamacchi/webGIS_project" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>GIS project 2024/2025</li><li>Developed by: Sveva Zanetti, Silvia Macchi, Giovanni Pasut</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/jquery.dropotron.min.js"></script>
+		<script src="/js/jquery.scrolly.min.js"></script>
+		<script src="/js/jquery.scrollex.min.js"></script>
+		<script src="/js/browser.min.js"></script>
+		<script src="/js/breakpoints.min.js"></script>
+		<script src="/js/util.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>
