@@ -62,12 +62,12 @@ var overlayLayers = new ol.layer.Group({
             title: 'Vincoli',
             layers: [lyr_BenipaesaggisticiArt142c1aTerritoricostieri_1,
                     lyr_BenipaesaggisticiArt142c1bTerritoriconterminiailaghi_2,
-                    lyr_BenipaesaggisticiArt142c1cFiumitorrenticorsidacquapoligonali_3,
+                    //lyr_BenipaesaggisticiArt142c1cFiumitorrenticorsidacquapoligonali_3,
                     lyr_BenipaesaggisticiArt142c1cFiumitorrenticorsidacqualineari_4,
                     lyr_BenipaesaggisticiArt142c1dMontagne_5,
                     lyr_BenipaesaggisticiArt142c1fParchieriservebeni_paesaggistici__art_142_c1_f_parchi_e_riserve_6,
                     lyr_BenipaesaggisticiArt142c1iZoneumide_7,
-                    lyr_BenipaesaggisticiArt142c1cFiumitorrenticorsidacquafasce150m_8,
+                    //lyr_BenipaesaggisticiArt142c1cFiumitorrenticorsidacquafasce150m_8,
                     lyr_BenipaesaggisticiArticolo136aree_9,
                     lyr_BenipaesaggisticiArticolo136punti_10,
                     lyr_Beniarcheologici_11,
@@ -75,7 +75,7 @@ var overlayLayers = new ol.layer.Group({
         }),
         new ol.layer.Group({
             title: 'Fasce di rispetto',
-            layers: [lyr_Fasciadirispettostradate_15, 
+            layers: [//lyr_Fasciadirispettostradate_15, 
                      lyr_Fasciadirispettoautostrada_16, 
                      lyr_FasciadirispettoTerna_14]
         }),
